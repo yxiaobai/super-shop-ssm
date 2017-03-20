@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fengze.shop.mapper.ProDetDoMapper" >
+  <resultMap id="BaseResultMap" type="com.fengze.shop.model.ProDetDo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="DET_ID" property="detId" jdbcType="BIGINT" />
+    <result column="PRO_ID" property="proId" jdbcType="BIGINT" />
+    <result column="DET_LENGTH" property="detLength" jdbcType="VARCHAR" />
+    <result column="DET_HEIGHT" property="detHeight" jdbcType="VARCHAR" />
+    <result column="DET_WIDTH" property="detWidth" jdbcType="VARCHAR" />
+    <result column="DET_MATE" property="detMate" jdbcType="VARCHAR" />
+    <result column="DET_ADDR" property="detAddr" jdbcType="VARCHAR" />
+    <result column="DET_DATE" property="detDate" jdbcType="TIMESTAMP" />
+    <result column="DET_DESC" property="detDesc" jdbcType="VARCHAR" />
+    <result column="STATE" property="state" jdbcType="TINYINT" />
+    <result column="CREATE_BY" property="createBy" jdbcType="BIGINT" />
+    <result column="CREATE_DATE" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_BY" property="updateBy" jdbcType="BIGINT" />
+    <result column="UPDATE_DATE" property="updateDate" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>
